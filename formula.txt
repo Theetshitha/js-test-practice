@@ -1,0 +1,956 @@
+By Listing Multiples of Each Number
+In this method, we need to list the multiples of each number until at least one of the multiples appears on all the lists. Then, the LCM is the smallest number that is on all of the lists. Example,
+
+LCM of 6, 7, 21
+
+Multiples of 6 = 6, 12, 18, 24, 30, 36, 42, 48, 54, 60.
+
+
+Multiples of 7 = 7, 14, 21, 28, 35, 42, 49, 56, 63, 70.
+
+Multiples of 21 = 21, 42, 63, 84, 105, 126, 147, 168, 189, 210.
+
+Now, the smallest number that is common in all the lists is 42.
+
+Hence, 
+
+LCM(6, 7, 21) = 42
+
+To Find Out LCM using Prime Factorization Method
+First, we need to write all numbers as a product of their prime factors. Then, LCM will be the product of the highest powers of all prime numbers. Example,
+
+LCM of 15, 8
+
+Prime factorization of 15 = 3 × 5
+
+Prime factorization of 8 = 2 ×  2 × 2
+
+Hence,
+
+LCM = 23 × 3 × 5 = 120
+
+To Find Out LCM using Division Method
+First, we need to write all the numbers in a horizontal line separated by commas. Then, we divide all the given numbers by the smallest prime number. Then, we write the quotient and undivided numbers in a new line below the previous line. We repeat this procedure until we come to the stage where no prime factor is common. Then, we find the product of all divisors and the resultant number we get is the LCM. 
+
+Example:
+
+LCM of 6, 8, 5, 4, 3, 9 is 360
+
+Findingoutlcmusingdivisionmethod
+ 
+
+To Find LCM using GCD Formula
+If a, and b are any numbers then, we know that,
+
+LCM × HCF/GCD = a ×  b
+
+LCM of a, b =  a × b / gcd(a,b)
+
+Example: Find LCM of 4, 56 using GCD of 4, 56.
+
+Solution:
+
+Prime factors of 4 = 2 × 2
+
+Prime factors of 56 = 2 × 2 × 2 × 7
+
+Common factor = 2 × 2 = 4
+
+Hence,
+
+GCD of 4, 56 = 4
+
+LCM of 4, 56 = (4 × 56)/ gcd of (4, 56)
+
+= 224/ 4
+
+= 56
+
+LCM of Fractions
+To find the LCM of two fractions we first compute the LCM of Numerators and GCD of the Denominators. Then, both these results will be expressed as a fraction 
+
+LCM =  LCM of Numerators / GCD of Denominators    
+
+Sample Problems on LCM Formula
+Problem 1: Find out the LCM of 16 and 10.
+
+Solution: 
+
+we know that LCM(a, b) = a × b/ GCD(a, b)        
+
+Here, a = 16 and b = 10
+
+a × b = 16 × 10 = 160
+
+GCD(a, b) = 2
+
+Hence, LCM(16, 10) = 160 /2 = 80
+
+Problem 2: Find the LCM of 6/7 and 5/4.
+
+Solution: 
+
+Numerators are 6, 5 and Denominators are 7, 4
+
+Then, LCM(6, 5) = 30 
+
+and GCD(7, 4) = 1
+
+Hence, LCM of 6/7 and 5/4 = 30/1
+
+Problem 3: Calculate the  LCM of 14, 12, 7, and 8.
+
+Solution: 
+
+Sampleproblemonlcmformula
+ 
+
+LCM of 14, 12, 7, 8 = 2 × 2 × 2 × 3 × 7
+
+                               = 168
+
+Hence, LCM(14, 12, 7, 8) = 168
+
+Problem 4: Find out the LCM for 8 and 24.
+
+Solution: 
+
+Prime Factorization of 8 = 2 × 2 × 2
+
+Prime Factorization of 24 = 2 × 2 × 2 × 3
+
+LCM = 2 × 2 × 2 = 8
+
+Problem 5: Find out the LCM of 36, 4.
+
+Solution:
+
+Multiples of 36 = 36, 72, 108, 144, 180, 216, 252, 288, 324, 360 etc.
+
+Multiples of 4 = 4, 8, 12, 16, 20, 24, 28, 32, 36, 40 etc.
+
+Common multiple = 36
+
+Hence, LCM of 36 and 4 = 36
+
+Problem 6: Find the least number divided by 48 and 76, which leaves the remainder of 8 and 12 respectively.
+
+Solution:
+
+First we find the LCM of the two numbers we get,
+
+Prime Factorisation of 48 = 2 × 2 × 2 × 2 × 3
+
+Prime Factorization of 76 = 2 × 2 × 19
+
+Therefore, LCM of the two numbers is 2 × 2 × 2 × 2 × 19 × 3 = 912.
+
+The least number divided by 48 and 76 leaving remainder 8 and 12 is (912 – (8 + 12)) = 892.
+
+
+Last Updated : 03 Nov, 2022
+
+
+Verification of Distributive Property of Multiplication over Addition
+Distributive Property of Multiplication over Addition is given as P(Q + R) = PQ + PR. Let’s check if it’s true or not using an example.
+
+Example: Verify if, 15(6 + 5) = 15 ⨯ 6 + 15 ⨯ 5
+
+Answer:
+
+We have LHS = 15(6 + 5)
+
+using BODMAS Rule we will first solve the bracket.
+
+⇒ 15(6 + 5) = 15 ⨯ 11 = 165
+
+Hence, we have LHS = 165
+
+We have RHS = 15 ⨯ 6 + 15 ⨯ 5
+
+⇒ 90 + 75 = 165
+
+Hence, RHS = 165
+
+Thus we see that we have LHS = RHS. Hence, 15(6 + 5) = 15 ⨯ 6 + 15 ⨯ 5. Thus Distributive Property of Multiplication over Addition is verified.
+
+Verification of Distributive Property of Multiplication over Subtraction
+Distributive Property of Multiplication over Subtraction is given as P(Q – R) = PQ – PR. Let’s check if it’s true or not using an example.
+
+Example: Verify if 6(30 – 9) = 6⨯30 – 6⨯9
+
+Answer:
+
+We have LHS = 6(30 – 9)
+
+Solving bracket first using BODMAS Rule,
+
+⇒ 6 ⨯ 21 = 126
+
+We have RHS = 6⨯30 – 6⨯9
+
+⇒ 180 – 54 = 126
+
+Hence, we have LHS = RHS, it means 6(30 – 9) = 6⨯30 – 6⨯9. Thus Distributive Law of Multiplication over Subtraction is verified.
+
+Distributive Property of Division
+Distributive Property of Division is based on the same pattern as the Distributive Property of Multiplication just with a minor difference that the sum or difference inside the bracket is now divided by a number instead of multiplication. We know that division is the reverse process of multiplication and we can write a division statement in the form of a multiplication format, hence making the Distributive Property of Division valid.
+
+The Distributive Property of Division can be expressed as (Q + R) ÷ P = Q ÷ P + R ÷ P for the Distributive Property of Division over Addition and as (Q – R) ÷ P = Q ÷ P – R ÷ P for the Distributive Property of Division over Subtraction. The same expression can be written in terms of multiplication as (Q + R)1/P and (Q – R)1/P.
+
+The distributive property helps in dividing larger numbers easily by breaking the number into two or more smaller factors and then distributing the divide operation between them. Let us understand this concept with the help of an example.
+
+Example: Divide 76 ÷ 4 using the distributive property of division.
+
+Solution: 
+
+Given expression: 76 ÷ 4
+
+We can write 76 as 64 + 12
+
+So, 76 ÷ 4 = (64 + 12) ÷ 4
+
+Now, let us distribute the division operation for each factor (64 and 12) in the bracket.
+
+= (64 ÷ 4) + (12 ÷ 4)
+
+= 16 + 3 = 19
+
+Therefore, the answer is 19.
+
+Read more about Division.
+
+Applications of Distributive Property
+Distributive Law is helpful in reducing the calculation timing as if P(Q ∓ R) = PQ ∓ PR is true then its reverse is also true i.e. PQ ∓ PR = P(Q ∓ R). Hence, it will help in condensing the expression by taking the common digit out and solving the operation inside the bracket, and then multiplying it with the number present outside the bracket. Let’s learn it using examples
+
+Example 1: Solve 243 ⨯ 4 + 243 ⨯ 6 using Distributive Law.
+
+Answer:
+
+We can see that we have a large number 243 which is to be multiplied with 4 and 6 and then to be added. Now this is a hectic task as we don’t have the table of 243 on the tip of our tongue. Hence we can solve it by taking 243 and then performing the sum of 4 and 6 inside the bracket and multiplying the sum with 243. Mathematically it is solved as
+
+243⨯4 + 243⨯6 = 243(4 + 6) {Using Distributive Law of Multiplication over Addition}
+
+⇒ 243 ⨯ 10 = 2430
+
+Example 2: Solve 103 ⨯ 7 – 103 ⨯ 6 with help of Distributive Law.
+
+Answer:
+
+We have 103 ⨯ 7 – 103 ⨯ 6
+
+Using Distributive Law of Multiplication over Subtraction
+
+103 ⨯ 7 – 103 ⨯ 6 = 103(7 – 6) = 103 ⨯ 1 = 103
+
+Resources related to Distributive Property:
+
+Properties of Rational Numbers
+Arithmetic Operations
+Long Division Method
+Distributive Property Examples
+Example 1: Solve equation 5 (y + 8) = 120 using the distributive property.
+
+Answer:
+
+Given, 5 (y + 8) = 120
+
+We have a set of two parentheses inside the bracket. So, distribute 5.
+
+5 × y + 5 × 8 = 120
+
+⇒ 5y + 40 = 120
+
+⇒ 5y = 120 – 40 = 80
+
+⇒ y = 80/5 = 16
+
+Hence, y = 16.
+
+Example 2: Solve 3x + 4(x – 6) + 17 = 28 using the distributive property.
+
+Answer:
+
+Given, 3x + 4(x – 6) + 17 = 28
+
+We have a set of two parentheses inside the bracket. So, distribute 4.
+
+3x + 4 × x – 4 × 6 + 17 = 28
+
+⇒ 3x + 4x – 24 + 17 = 28
+
+⇒ 7x – 7 = 28
+
+⇒ 7x = 28 + 7 = 35
+
+⇒ x = 35/7 = 5
+
+Hence, x = 5.
+
+Example 3: Solve the equation (a + 3b) (2a + b) using the distributive property.
+
+Answer:
+
+Given, (a + 3b) (2a + b)
+
+From the distributive property, we have
+
+(p + q) × r=(p × r)+(q × r)      
+
+So, (a + 3b) (2a + b) =  a × (2a + b) + 3b × (2a + b)
+
+⇒ (a + 3b) (2a + b) = 2a2 + ab + 6ab + 3b2
+
+⇒ (a + 3b) (2a + b) = 2a2 + 7ab + 3b2
+
+Thus, (a + 3b) (2a + b) = 2a2 + 7ab + 3b2.
+
+Example 4: Solve the equation (3x – 2y) (x + 4y) using the distributive property.
+
+Answer:
+
+Given, (3x – 2y) (x + 4y)
+
+From the distributive property, we have
+
+(p + q) × r=(p × r)+(q × r)      
+
+So, (3x – 2y) (x + 4y)=  3x × (x + 4y) – 2y × (x + 4y)
+
+⇒ (3x – 2y) (x + 4y) = 3x2 + 12xy – 2xy – 8y2
+
+⇒ (3x – 2y) (x + 4y)= 3x2 + 10xy – 8y2
+
+Thus, (3x – 2y) (x + 4y) = 3x2 + 10xy – 8y2.
+
+Example 5: Divide 108 ÷ 9 using the Distributive Property of Division.
+
+Answer:
+
+Given expression: 108 ÷ 9
+
+We can write 108 as 81 + 27
+
+So, 108 ÷ 9 = (81 + 27) ÷ 9
+
+Now, let us distribute the division operation for each factor (64 and 12) in the bracket.
+
+= (81 ÷ 9) + (27 ÷ 9)
+
+= 9 + 3 = 12
+
+Therefore, the answer is 12.
+
+Practice Questions on Distributive Property
+Q1: Solve using Distributive Property 99 ⨯ 23.
+
+Q2: Solve 24 ⨯ 96 + 24 ⨯ 4 with the help of Distributive Property.
+
+Q3: Verify using Distributive Property: Is 39 ⨯ 101 = 39 (100 + 1)?
+
+Q4: Solve 36 ⨯ 204 – 26 ⨯ 4 using Distributive Property.
+
+Q5: Solve 19 ⨯ 47 + 19 ⨯ 3.
+
+FAQs on Distributive Property
+1. What is Distributive Property in Maths?
+In mathematics, the distributive property is a fundamental property that applies to operations like addition and multiplication. It allows you to perform operations on terms within parentheses or brackets and is a key concept in algebra.
+
+2. What is Distributive Property of Multiplication?
+Distributive Property of Multiplication is a method of distributing numbers over addition and subtraction to the number present inside the bracket. It is expressed as P(Q ± R) = PQ ± PR.
+
+3. What is the Meaning of Distributive Property?
+Distributive Property basically means to distribute the number which is product form outside the bracket to the numbers present inside the bracket written as an expression of sum or difference.
+
+4. What is Distributive Property Equation?
+The distributive property expression is written as P(Q ± R) = PQ ± PR
+
+5. What is Distributive Property Example?
+The Distributive Property Example is given below:
+
+6(6 + 10) = 36 + 160 = 196
+
+6. How to Solve Distributive Property?
+Distributive Property can be solved by the following method.
+
+Let’s say we have to solve 7(6 + 10)
+
+then we will open the bracket and multiply 7 by 6 and 7 by 10 and then multiply i.e. 7 ⨯ 6 + 7 ⨯ 10 = 42 + 70 = 112.
+
+7. What is the Distributive Property for Rational Numbers?
+Distributive property applies to rational numbers just as it does to integers or real numbers. The distributive property of rational numbers states that for any rational numbers a, b, and c:
+
+Distributive Property of Rational Numbers:
+
+a(b + c) = (ab) + (ac)
+
+8. What is the Distributive Property of Addition?
+Distributive Property of Addition is just the same as Distributive Property of Multiplication over addition.
+
+What are Exponents?
+When any number or variable (x) is multiplied n times, then the resultant is xn. Then, n is called the exponent of 
+
+x.x.x.x.x.x.x … n times = xn
+
+Then x is base and n is an exponent of that base and this is read as x raises to power n. An exponent is the power of a number that indicates the number of times the number multiplied by itself. Exponent defines the number of times a number is multiplied by itself. 
+
+
+Example: 2.2.2 = 23
+
+Base = 2
+Exponent = 3
+The concept of the exponent is represented in the image added below,
+
+Exponet of a Number
+
+Exponents Definition
+A mathematical way of representing very large numbers is called the exponents. It is a way of representing the powers of a number. Suppose we have a number 5 which is multiplied by itself 5 times then this is expressed as, 5×5×5×5×5
+
+As we can see this is a very tedious way of representing the number in exponent this is represented as,
+
+5×5×5×5×5 = 55
+
+Thus, the exponent is a very short way of representing large numbers.
+
+Exponents Formulas
+The formulas that are widely used for solving the exponents are added in the table below,
+
+  Exponents Formulas
+
+n times product exponent formula	x.x.x.x … n times = xn   
+Multiplication Rule	xm . xn = x(m + n) 
+Division Rule	xm/xn = x(m – n)
+Power of product rule	(xy)n = xn. yn
+Power of fraction rule	(x/y)n = xn/yn 
+Power of power rule	[(x)m]n = xmn
+Zero Exponent	(x)0 = 1, if x ≠ 0
+One Exponent	(x)1 = x
+Negative Exponent	x-n = 1/xn
+Fractional Exponent	xm/n = n√(x)m
+Note: If an equation base is the same we can equate the exponents.
+
+Laws of Exponents
+There are seven laws of exponents that we study under this heading.
+
+Product of Power Rule: This rule states that two numbers in exponential having the same base are multiplied then their product contains the same base and their powers get added. For Example 23⨯24 = 23+4 = 27
+
+Quotient of Power Rule: This rule states that two numbers in exponential form is divided then the quotient has the same base and their powers get subtracted. For Example: 35/32 = 35-2 = 33
+
+Power of Power Rule: If a number in exponential form is raised to some power then its powers get multiplied. For Example, (43)2 = 43⨯2 = 46
+
+Power of a Product Rule: If two numbers in the exponential form that have the different bases but the same exponents are multiplied then the product has the base equal to the product of two bases and the power remains the same. For Example, 32⨯42 = 122 = 144
+
+Power of Quotient Rule: If two numbers in the exponential form that have a different base but the same exponents are divided then the quotient has the base equal to the quotient of two bases and the power remains the same. For Example, 63/33 = 23 = 8
+
+Zero Exponent Rule: Any number raised to power zero gives 1. For Example, (101)0 = 1
+
+Negative Exponent Rule: If any number is raised to negative power then to make the power positive, the base is converted to its reciprocal. For Example, 2-3 = (1/2)3 = 1/23 = 1/8
+
+Negative Exponents
+Negative Exponent is nothing but the exponents of the reciprocal numbers thus, negative exponents are easily solved by taking the reciprocal and then easily solving the exponent using the normal rules. This is represented as,
+
+x-n = (1/x)n
+
+Suppose we have to solve for the negative exponent (2)-3 then,
+
+(2)-3 = (1/2)3 = 1/8
+
+Thus, taking the exponent easily solves the exponents. All the formulas of the exponents work easily with the negative exponents.
+
+Exponents with Fractions
+The exponents with the fraction are also called the radicals. These are the exponents that have a fraction of their power. The square root, cube root, nth root, and others all are called exponents with fractions.
+
+We represent the fraction exponents as,
+
+Square Root = √()
+Cube Root = 3√()
+nth Root = n√()
+Now the fraction exponent is solved in two parts in the first part we solve the denominator and then solve the numerator, this is represented as,
+
+xn/m  = {(x)1/m}n
+
+here, we first solve (x)1/m and then take its nth power to get the final answer. This can be understood by the example added below,
+
+Example: Simplify 43/2
+
+Solution:
+
+= 43/2
+
+= (41/2)3
+
+= 23 = 8
+
+Decimal Exponents
+Decimal Exponents are nothing but the other way of representing the fraction exponents. If any exponent is given in the decimal form then we first change it into fraction form and then easily solve for the fraction form.
+
+This can be understood by the example added below,
+
+Example: Simplify 41.5
+
+Solution:
+
+= 41.5    (As, 1.5 = 3/2)
+
+= 43/2
+
+= (41/2)3
+
+= 23 = 8
+
+Exponent Table
+Type of Exponent	Expression	Expansion	Simplified value
+Zero exponent	60	1	1
+One exponent	41	4	4
+Exponent and power	23	2 × 2 × 2	8
+Negative exponent	5-3	1/53 = 1/(5 × 5 × 5)	1/125
+Rational exponent	91/2	√9	3
+Multiplication	32 × 33	3(2 + 3) = 35	273
+Quotient	75/ 73	7(5 – 3) = 72	49
+Power of exponent	(82)2	8(2 × 2) = 84	4096
+Scientific Notation with Exponents
+Scientific Notation is a way of writing very large numbers into very small numbers. In scientific notation, the numbers are represented in the multiple of 10. The number is first converted into its unit form and then the number is multiplied with the power of 10 to get the number in scientific notation.
+
+These numbers are useful in writing very large and very small numbers. Suppose we have to write 15670000 then in scientific notation it is represented as, 1.567×107
+
+Any number can be easily represented in the scientific notation by following the steps added below,
+
+Step 1: If the number is greater than one mark the decimal digit after the first digit from the starting of the number. 
+Step 2: Then multiply the number with the 10 raise to the power as their are digits after the decimal or point (include zero in the counting)
+Step 3: If the number is smaller than one shift the decimal to the first digit counting from the left of the number excluding zeros.
+Step 4: Then multiply the number with the 10 raise to the negative power as their are digits from which the decimal is shift.
+For example, Convert 134500000000 into scientific notation.
+
+Solution:
+
+= 134500000000
+
+= 1.345 × 108
+
+For example, Convert 0.0000001345 into scientific notation.
+
+Solution:
+
+= 0.0000001345
+
+= 1.345 × 10-7
+
+Also, Read
+
+Negative Exponents
+How to multiply and divide exponents
+Adding and Subtracting of  Exponents
+Exponents Examples
+Example 1: Solve the following: 
+
+2.2.2.2     
+32.33  
+(4.5)2  
+(5)0  
+2-2 
+25/23 
+[(3)1]2 
+43/2 
+(4/3)2 
+Solution: 
+
+2.2.2.2 = 24 =16
+32.33 = 3(2 + 3) = 35 = 243
+(4.5)2 = 42.52 = (16).(25) = 400
+(5)0 = 1
+2-2 = 1/22 = 1/4
+25/23 = 2(5-3) = 22 = 4
+[(3)1]2 = 3(1.2) = 32 = 9
+43/2 = √(4)3 = √64 = 8
+(4/3)2 = 42/32 = 16/9
+Example 2: Simplify: 
+
+(23 ÷ 24)-2.23      
+3(-2)÷ 42   
+33.42/64   
+(3-1 + 2-2 + 4-1)
+Solution: 
+
+(1)
+
+(23 ÷ 24)-2.23 
+
+= (23/24)-2.23 
+
+= [2(3 – 4)]-2.23 
+
+= [2-1]-2.23 
+
+= 2(-1).(-2).23 
+
+= 22.23 
+
+= 25 = 32
+
+(2)
+
+3(-2) ÷ 42 
+
+= 1/(3)2(4)2 
+
+= 1/9.16 = 1/144
+
+(3)
+
+33.42/64 
+
+= 33.42/(2.3)4 
+
+= 33.24/24.34 
+
+= 1/3
+
+(4)
+
+(3-1 + 2-2 + 4-1) 
+
+= (1/3 + 1/22 +1/4) 
+
+= (1/3 + 1/4 + 1/4) 
+
+= 5/6
+
+Example 3: Find the value of x if (4)x + 12 = (4)2x + 6.(2)6
+
+Solution:  
+
+(4)x+12 = (4)2x+6.(22)3
+
+(4)x+12 = (4)2x+6.(4)3
+
+(4)x+12 = (4)2x+6+3
+
+(4)x+12 = (4)2x+9
+
+Since, bases are equal powers gets equated
+
+x +12 = 2x + 9
+
+2x – x = 12 – 9
+
+x = 3
+
+Example 4: Find the value of {3434/3}1/4
+
+Solution: 
+
+{3434/3}1/4  = {(73)4/3}1/4  
+
+= {7}3.(4/3).(1/4) = 7
+
+Example 5: Find the value of x + y if:
+
+(81)y = 27/(3)x, 4y= 256
+
+Solution: 
+
+(34)y = (33)/(3)x
+
+(3)4y = (3)3-x
+
+Since, bases are equal then powers get equated
+
+4y = 3-x ⇢ Equation (1)
+
+4y = 256
+
+4y = (4)4
+
+y = 4
+
+Putting the value of y in Equation 1, 
+
+4.4 = 3-x
+
+16 = 3-x
+
+x = -13
+
+Now, we have to find value of x + y
+
+x + y = -13+4 = -9
+
+Example 6: If (-9)2x+7 = (-9)x. 81, then find the value of (x2 + 1)/(x2 – 12).
+
+Solution: 
+
+(-9)2x+7 = (-9)x . 81
+
+(-9)2x+7 = (-9)x . (-9)2
+
+(-9)2x+7 = (-9)x+2
+
+Since, bases are equal then powers get equated
+
+2x + 7 = x + 2
+
+2x – x = 2 – 7
+
+x = -5
+
+Now, we have to find value of  (x2 + 1)/(x2 – 12) 
+
+(x2 + 1)/(x2 – 12)  = [(-5)2 + 1]/[(-5)2 – 12]
+
+= [25 + 1]/[25 – 12]
+
+= 26/13  
+
+(x2 + 1)/(x2 – 12) = 2
+
+Example 7: Find multiplicative inverse of [(-13)-1]2 ÷ (91)-1
+
+Solution: 
+
+Let, x = [(-13)-1]2 ÷ (91)-1 
+
+x = (-13)-2 ÷ (91)-1 
+
+= (-1/132) ÷ (1/91)
+
+= (-1/132) × 91
+
+x = -7/13
+
+Multiplicative inverse is given by 1/x i.e.
+
+1/x = 1/(-7/13)
+
+1/x = -13/7
+
+Practice Questions on Exponents
+Q1: Solve (32)1/5 +(-9)0 + (64)1/3
+
+Q2: Simplify (64/81)-3/4 ⨯ (25/9)-3/2
+
+Q3: Find x when 3x+2/35 = 27
+
+Q4: Find x when (64)x = 16/4x
+
+FAQs on Exponents
+1. What are Exponents in Math?
+The exponents in mathematics are a way of representing very large and very small numbers they are used in mathematics for simplifying and easing the calculation.
+
+2. What are the Examples of Exponents?
+Some example of the exponents are,
+
+3.456×10-12
+1.4526×1022
+9.87×10-21, etc.
+3. How to Multiply Exponents?
+To multiply exponents we use the following formula,
+
+an × am = am+n
+an × bn = (ab)n
+This can be further understood using the example,
+
+Example: Simplify 33 × 38
+
+Solution:
+
+= 33 × 38
+
+= 33+8 = 311
+
+4. What is a Zero Exponent?
+A zero exponent is an exponent with power 0 and the value of the zero exponent is always zero, i.e.
+
+a0 = 1 (a ≠ 0)
+
+5. What is a Negative Exponent?
+A negative exponent is an exponent with negative values and its value is calculated by taking its reciprocal and them making its exponent positive, then simplifying it normally, i.e.
+
+a-n = (1/a)n
+
+How to loop through objects keys and values in Javascript?
+A common problem faced by programers is looping over an enumerable dataset. This data can come in the form of arrays, lists, maps or other objects. In this article we will deal with this problem and learn 4 ways to loop through objects using javascript to retrieve multiple key-value pairs.
+
+How to loop through objects in JavaScript?
+The various methods that can be used to loop through objects in JavaScript are:
+
+Using a for...in loop
+Object.keys method
+Object.values method
+Object.entries method
+Continue reading to learn more about the various methods.
+
+Table of Contents
+Introduction to undefined and null values in Javascript
+Methods to loop through objects using javascript
+Parting words
+Other Related Concepts
+Introduction to looping through objects using javascript
+If you have an array that is considered to be an object in javascript, you can’t loop through the array using map(), forEach(), or a for..of loop.
+
+You will get errors:
+
+const items = {
+    'first': new Date(),
+    'second': 2,
+    'third': 'test'
+}
+map() will give you TypeError: items.map is not a function:
+
+items.map(item => {})
+forEach() will give you TypeError: items.forEach is not a function:
+
+items.forEach(item => {})
+for..of will give you TypeError: items are not iterable:
+
+for (const item of items) {}
+Methods to loop through objects using javascript
+for...in Loop
+The most straightforward way to loop through an object's properties is by using the for...in statement. This method works in all modern and old browsers including Internet Explorer 6 and higher.
+
+Here is an example that uses the for...in loop to iterate over an object:
+
+const user = {
+
+    name: 'John Doe',
+
+    email: 'john.doe@example.com',
+
+    age: 25,
+
+    dob: '08/02/1989',
+
+    active: true
+};
+
+// iterate over the user object
+
+for (const key in user) {
+
+    console.log(`${key}: ${user[key]}`);
+}
+
+// name: John Doe
+
+// email: john.doe@example.com
+
+// age: 25
+
+// dob: 08/02/1989
+
+// active: true
+One problem in using the for...in method is that it loops through the properties in the prototype chain as well. Since the objects in JavaScript can inherit properties from their prototypes, the for...in statement will loop through those properties as well.
+
+To avoid this problem, you have to explicitly check if the property belongs to the object by using the hasOwnProperty() method:
+
+for (const key in user) {
+
+    if (user.hasOwnProperty(key)) {
+
+        console.log(`${key}: ${user[key]}`);
+    }
+}
+To overcome this hassle, later in ES8, two other methods were added, Object.entries() and Object.values(). These methods convert the object into an array and then use array looping methods to loop over that array.
+
+Object.keys() Method
+Before ES6, the only way to loop through an object was through using the for...in loop. The Object.keys() method was introduced in ES6 to make it easier to loop over objects.
+
+It takes the object that you want to loop over as an argument and returns an array containing all properties names (or keys).
+
+After which you can use any of the array looping methods, such as forEach(), to iterate through the array and retrieve the value of each property.
+
+Here is an example:
+
+const courses = {
+    java: 10,
+
+    javascript: 55,
+
+    nodejs: 5,
+
+    php: 15
+};
+
+// convert object to key's array
+
+const keys = Object.keys(courses);
+
+// print all keys
+
+console.log(keys);
+
+// [ 'java', 'javascript', 'nodejs', 'php' ]
+
+// iterate over object
+
+keys.forEach((key, index) => {
+    console.log(`${key}: ${courses[key]}`);
+});
+
+// java: 10
+
+// javascript: 55
+
+// nodejs: 5
+
+// php: 15
+Object.values() Method
+The Object.values() method was introduced in ES8 and it works opposite to that of Object.key(). It returns the values of all properties in the object as an array. You can then loop through the values array by using any of the array looping methods.
+
+Let us look at an example:
+
+>
+const animals = {
+    tiger: 1,
+
+    cat: 2,
+
+    monkey: 3,
+
+    elephant: 4
+};
+
+// iterate over object values
+
+Object.values(animals).forEach(val => console.log(val));
+
+// 1
+// 2
+// 3
+// 4
+Object.entries() Method
+The Object.entries(), an other ES8 method can be used for traversing an array. . Object.entries() outputs an array of arrays, with each inner array having two elements. The first element being the property and the second element is the value.
+
+Here is an example:
+
+const animals = {
+    tiger: 1,
+
+    cat: 2,
+
+    monkey: 3,
+
+    elephant: 4
+};
+
+const entries = Object.entries(animals);
+console.log(entries);
+
+// [ [ 'tiger', 1 ],
+
+//   [ 'cat', 2 ],
+
+//   [ 'monkey', 3 ],
+
+//   [ 'elephant', 4 ] ]
+To loop over the array returned by Object.entries(), you can either use the for...of loop or the forEach() method as shown below:
+
+// `for...of` loop
+for (const [key, value] of Object.entries(animals)) {
+    console.log(`${key}: ${value}`);
+}
+
+// `forEach()` method
+
+Object.entries(animals).forEach(([key, value]) => {
+    console.log(`${key}: ${value}`)
+});
